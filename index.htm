@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body class="bg-dark">
+      
+      
+      <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto p-4">
+                <div class="card card-body mt-3">
+
+                    <div class="invalid-feedback">gfrgv</div>
+
+                    <h1 class="display-15 mx-auto">Loan Calucultor</h1>
+                    <form action="" id="loan-form">
+                        
+                        
+                        <div class="form-control mb-3">
+                            <div class="input-group ">
+                       <span class="input-group-text">$</span>
+                       <input type="number" class="form-control" placeholder="Loan Amount" id="loan-amount">
+                   </div>
+                </div>
+
+                <div class="form-control mb-3">
+                   <div class="input-group ">
+                       <span class="input-group-text">%</span>
+                       <input type="number" class="form-control" placeholder="Interest" id="interest-rate">
+                    </div>
+                </div>
+                
+                <div class="form-control mb-3">
+                    <div class="input-group ">
+                        <input type="number" class="form-control" placeholder="Years of return" id="years">
+                    </div>
+                </div>
+
+            </form>
+            <button class="btn btn-dark btn-md-3 btn-block" id="calculate">Calculate</button>
+
+            <div class="display-block mt-3">
+                <h3 class="mx-auto" >Results</h3>
+                
+                
+                <div class="form-control my-3">
+                    <div class="input-group ">
+                        <span class="input-group-text">Monthly Payment</span>
+                        <input type="number" class="form-control" id="r-monthly" disabled>
+                    </div>
+                </div>
+ 
+                 <div class="form-control mb-3">
+                     <div class="input-group ">
+                         <span class="input-group-text">Total Payment</span>
+                         <input type="number" id="r-total" class="form-control" disabled>
+                        </div>
+                    </div>
+                    
+                    <div class="form-control mb-3">
+                        <div class="input-group ">
+                            <span class="input-group-text">Total Interest</span>
+                            <input type="number" id="r-totalInterest" class="form-control" disabled>
+                        </div>
+                    </div>
+            </div>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+<script src="App.js"></script>
+
+  </body>
+</html>
